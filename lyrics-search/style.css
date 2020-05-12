@@ -80,6 +80,8 @@ button:active{
     transform: scale(0.9);
 }
 
+
+
 .songs--list{
     list-style: none;
 }
@@ -89,6 +91,7 @@ button:active{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0;
 }
 
 .btn{ 
@@ -98,6 +101,7 @@ button:active{
     font-size: 14px;
     padding: 5px 8px;
     border-radius: 50px;
+    margin: 0 20px;
 }
 
 
@@ -105,9 +109,3 @@ button:active{
     display: flex;
     justify-content: center;
 }
-
-#move .btn{
-    transform: scale(1.2);
-}
-
-
